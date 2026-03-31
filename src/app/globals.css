@@ -64,6 +64,10 @@ body {
   }
 }
 
+.flipping {
+  animation: coinFlip 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+
 @keyframes coinFlip {
   0% {
     transform: rotateY(0deg) translateY(0);

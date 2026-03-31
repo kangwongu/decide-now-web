@@ -175,11 +175,6 @@ export default function FlipScreen({ onBack }: FlipScreenProps) {
         )}
       </div>
 
-      <style jsx>{`
-        .flipping {
-          animation: coinFlip 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
-        }
-      `}</style>
     </div>
   );
 }
