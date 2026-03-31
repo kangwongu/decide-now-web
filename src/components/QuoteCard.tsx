@@ -15,7 +15,7 @@ export default function QuoteCard() {
       </p>
       <div className="inline-flex items-center gap-[6px] mt-[14px] px-[14px] py-[6px] bg-gradient-to-br from-[rgba(245,158,11,0.12)] to-[rgba(245,158,11,0.06)] rounded-[20px] text-[13px] font-semibold text-gold-dark">
         <span className="text-[14px]">🎯</span>
-        63%가 실행하고 행복도가 높아졌다
+        변화를 선택한 사람들의 행복도가 높아졌다
       </div>
     </div>
   );

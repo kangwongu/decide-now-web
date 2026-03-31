@@ -5,6 +5,7 @@ import FloatingDecos from "@/components/FloatingDecos";
 import HeroSection from "@/components/HeroSection";
 import CoinCharacter from "@/components/CoinCharacter";
 import QuoteCard from "@/components/QuoteCard";
+import InfoSection from "@/components/InfoSection";
 import FlipScreen from "@/components/FlipScreen";
 
 export default function Home() {
@@ -50,16 +51,7 @@ export default function Home() {
 
           <QuoteCard />
 
-          {/* CTA */}
-          <div className="text-center pb-[20px] opacity-0 animate-fade-in-up [animation-delay:0.55s]">
-            <button
-              onClick={() => setScreen("flip")}
-              className="inline-flex items-center gap-[10px] px-[40px] py-[16px] bg-gradient-to-br from-gold to-gold-dark text-white border-none rounded-full text-[18px] font-bold cursor-pointer shadow-[0_6px_24px_rgba(245,158,11,0.35)] transition-all duration-200 tracking-[0.3px] hover:scale-105 hover:-translate-y-[2px] hover:shadow-[0_10px_32px_rgba(245,158,11,0.45)] active:scale-[0.97]"
-            >
-              <span className="text-[22px]">🪙</span>
-              동전 던지기
-            </button>
-          </div>
+          <InfoSection onFlip={() => setScreen("flip")} />
         </div>
       </div>
 
