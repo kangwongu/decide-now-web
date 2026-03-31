@@ -65,21 +65,27 @@ body {
 }
 
 .flipping {
-  animation: coinFlip 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  animation: coinFlip 2s linear forwards;
 }
 
 @keyframes coinFlip {
   0% {
     transform: rotateY(0deg) translateY(0);
   }
-  20% {
-    transform: rotateY(720deg) translateY(-60px);
+  10% {
+    transform: rotateY(calc(var(--final-rotation) * 0.1)) translateY(-40px);
+  }
+  30% {
+    transform: rotateY(calc(var(--final-rotation) * 0.3)) translateY(-75px);
   }
   50% {
-    transform: rotateY(1800deg) translateY(-80px);
+    transform: rotateY(calc(var(--final-rotation) * 0.5)) translateY(-80px);
   }
-  80% {
-    transform: rotateY(2520deg) translateY(-20px);
+  70% {
+    transform: rotateY(calc(var(--final-rotation) * 0.7)) translateY(-75px);
+  }
+  90% {
+    transform: rotateY(calc(var(--final-rotation) * 0.9)) translateY(-40px);
   }
   100% {
     transform: rotateY(var(--final-rotation)) translateY(0);
