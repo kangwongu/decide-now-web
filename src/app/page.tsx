@@ -17,7 +17,7 @@ export default function Home() {
 
       {/* 랜딩 페이지 */}
       <div
-        className={`z-1 min-h-dvh flex flex-col justify-center py-[60px_0_40px] transition-all duration-500 ${
+        className={`z-1 min-h-dvh flex flex-col justify-center pt-[60px] pb-[40px] transition-all duration-500 ${
           screen === "flip"
             ? "opacity-0 -translate-y-[30px] pointer-events-none absolute inset-0"
             : "relative"
