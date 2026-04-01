@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="ko" className="h-full antialiased">
       <head>
         <meta name="google-site-verification" content="Reimb0PKEg9WIqTcvw4HtdwcVps1YzLd3GxFXXA1Uks" />
+        <meta name="google-adsense-account" content="ca-pub-2013386973554991" />
         <link
           rel="preconnect"
           href="https://cdn.jsdelivr.net"
