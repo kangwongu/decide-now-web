@@ -151,6 +151,12 @@ export default function FlipScreen({ onBack }: FlipScreenProps) {
             >
               &ldquo;{encourage}&rdquo;
             </p>
+            <p
+              className="mt-[16px] text-[12px] text-text-light opacity-60"
+              style={{ animation: "fadeInUp 0.4s ease 0.6s both" }}
+            >
+              결과가 마음에 안 든다면, 이미 답을 알고 있는 거예요
+            </p>
           </>
         )}
       </div>

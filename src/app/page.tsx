@@ -7,6 +7,7 @@ import CoinCharacter from "@/components/CoinCharacter";
 import QuoteCard from "@/components/QuoteCard";
 import InfoSection from "@/components/InfoSection";
 import FlipScreen from "@/components/FlipScreen";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [screen, setScreen] = useState<"landing" | "flip">("landing");
@@ -53,6 +54,8 @@ export default function Home() {
 
           <InfoSection onFlip={() => setScreen("flip")} />
         </div>
+
+        <Footer />
       </div>
 
       {/* 동전 뒤집기 화면 */}
