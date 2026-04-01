@@ -7,10 +7,10 @@ export default function Footer() {
       <p className="mt-[8px]">
         문의:{" "}
         <a
-          href="mailto:rkddnsdl123@naver.com"
+          href="mailto:kwg2358@gmail.com"
           className="underline hover:text-text-sub"
         >
-          rkddnsdl123@naver.com
+          kwg2358@gmail.com
         </a>
       </p>
     </footer>
