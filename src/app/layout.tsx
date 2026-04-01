@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className="h-full antialiased">
       <head>
+        <meta name="google-site-verification" content="Reimb0PKEg9WIqTcvw4HtdwcVps1YzLd3GxFXXA1Uks" />
         <link
           rel="preconnect"
           href="https://cdn.jsdelivr.net"
